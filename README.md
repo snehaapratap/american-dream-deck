@@ -20,31 +20,6 @@ Built to work both on live sales calls (screen-shared) and as a standalone link 
 
 ---
 
-## Getting Started
-
-```bash
-# Clone the repository
-git clone <repo-url>
-cd american-dream-deck
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-# Open http://localhost:3000
-
-# Production build
-npm run build
-
-# Start production server
-npm start
-```
-
-**Requirements:** Node.js 18+, npm 9+
-
----
-
 ## Tech Stack
 
 | Technology | Purpose |
@@ -252,16 +227,6 @@ All design decisions, UX flow, creative direction, and product strategy were hum
 ## Deployment
 
 Deployed via **Vercel** with automatic builds from the `main` branch:
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy to production
-vercel --prod
-```
-
-Or connect the GitHub repository to Vercel for automatic deploys on every push.
 
 ---
 
